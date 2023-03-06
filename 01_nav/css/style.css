@@ -1,0 +1,57 @@
+.page{
+    width:min (100% -2rem, 1200px);
+    margin-inline:auto;
+    box-sizing: border-box;
+
+}
+.menu_panel {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    line-height: 3em;
+    font-family: sans;
+    display:flex;
+    justify-content: space-between;
+}
+.menu_panel_dark{
+    background-color: rgb(44,44,44);
+
+}
+.logo{
+    display: flex;
+}
+.menu{
+    display:flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.logo_img {
+    height: 2em;
+}
+
+.logo_text {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.menu_button {
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 0 1em;
+    text-decoration: none;
+    transition: color 0.4s, background 0.4s;
+}
+
+.menu_button_dark {
+    color: white;
+    background-color: rgb(80, 80, 80);
+}
+
+.menu_button_dark:hover {
+    background-color: green;
+}
